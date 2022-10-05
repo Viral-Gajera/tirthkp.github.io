@@ -90,10 +90,21 @@ let btn = document.querySelector('.btn');
 let chat = document.querySelector('#chat');
 
 btn.addEventListener('click', function(){
-    console.log('clicked');
     btn.classList.remove("btn");
     btn.classList.add("display-none");
     
     chat.classList.remove("display-none");
-    btn.classList.add("chat");
+    chat.classList.add("chat");
+})
+
+// selecting close button
+let closeBtn = document.querySelector('.cross');
+closeBtn.addEventListener('click', function(){
+
+    btn.classList.remove("display-none");
+    btn.classList.add("btn");
+
+    chat.classList.remove("chat");
+    chat.classList.add("display-none");
+
 })
