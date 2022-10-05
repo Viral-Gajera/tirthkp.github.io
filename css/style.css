@@ -69,8 +69,8 @@ Chat
     -ms-flex-direction: column;
     flex-direction: column;
     position: fixed;
-    right: 0px;
-    bottom: 0px;
+    right: 50px;
+    bottom: 50px;
 
 }
 
