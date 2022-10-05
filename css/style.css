@@ -127,7 +127,7 @@ Chat Title
 
 /* btn */
 .btn{
-    background-color: white;
+    background-color: #ab9043;
     width:70px;
     height:70px;
     margin : 50px;
@@ -142,6 +142,25 @@ Chat Title
     bottom : 0px;
     right : 0px;
     z-index: 10;
+}
+
+.cross{
+    width: 20px;
+    height: 20px;
+
+    margin-top: 11px;
+    margin-right: 10px;
+
+    overflow: visible;
+    /* background-color: #044f48; */
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.cross img{
+    width: 20px;
 }
 
 /*--------------------
