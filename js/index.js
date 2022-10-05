@@ -83,3 +83,17 @@ function fakeMessage() {
     }, 1000 + (Math.random() * 20) * 100);
 
 }
+
+
+// select btn and chat
+let btn = document.querySelector('.btn'); 
+let chat = document.querySelector('#chat');
+
+btn.addEventListener('click', function(){
+    console.log('clicked');
+    btn.classList.remove("btn");
+    btn.classList.add("display-none");
+    
+    chat.classList.remove("display-none");
+    btn.classList.add("chat");
+})
